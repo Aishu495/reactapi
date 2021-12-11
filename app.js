@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 app.use(cors())
 
 //const mongourl = "mongodb://localhost:27017"
-const mongourl = "mongodb+srv://govinduchaitanya3:1234@cluster0.jmt1h.mongodb.net/zomato?retryWrites=true&w=majority"
-// const mongourl = "mongodb+srv://local:testuser@cluster0.f8vmc.mongodb.net/zomato?retryWrites=true&w=majority"
+//const mongourl = "mongodb+srv://govinduchaitanya3:1234@cluster0.jmt1h.mongodb.net/zomato?retryWrites=true&w=majority"
+ const mongourl ="mongodb+srv://edureka:edureka1995@cluster0.qflcr.mongodb.net/zomato?retryWrites=true&w=majority"
 var db;
 //get
 app.get('/',(req,res) => {
